@@ -11,8 +11,8 @@
 - [x] Installer pakker: `requests` og `python-dotenv`.
 - [x] Opret `.gitignore` (mindst `venv/` og `.env`).
 - [x] Lav en enkel `main.py`, der kan koere.
-- [ ] Push foerste commit til GitHub.
-- [ ] Done-kriterie: Repo ligger paa GitHub, og `python main.py` virker i dit venv.
+- [x] Push foerste commit til GitHub.
+- [x] Done-kriterie: Repo ligger paa GitHub, og `python main.py` virker i dit venv.
 
 ## Fase 2 - CLI med argparse (lektion 2)
 **Maal:** Programmet tager imod input korrekt.
