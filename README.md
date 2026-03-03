@@ -28,14 +28,14 @@ pip install -r requirements.txt
 Opret en `.env` fil i projektmappen med:
 
 ```env
-API_KEY={DIN-API-KEY}
+API_KEY={API-KEY}
 ```
 
 ## Kør programmet
 
 ### Første gang(med key direkte)
 ```powershell (eksempel)
-python valuta.py --key{API_KEY} --from <valutakode> --to <valutakode> --ammount <beløb>
+python valuta.py --key{API_KEY} --from <valutakode> --to <valutakode> --amount <beløb>
 ```
 
 ### Efterfølgende key fra .env
