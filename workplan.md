@@ -10,21 +10,21 @@
 - [x] Opret virtual environment (`venv`).
 - [x] Installer pakker: `requests` og `python-dotenv`.
 - [x] Opret `.gitignore` (mindst `venv/` og `.env`).
-- [x] Lav en enkel `main.py`, der kan koere.
+- [x] Lav en enkel `valuta.py`, der kan koere.
 - [x] Push foerste commit til GitHub.
-- [x] Done-kriterie: Repo ligger paa GitHub, og `python main.py` virker i dit venv.
+- [x] Done-kriterie: Repo ligger paa GitHub, og `python valuta.py` virker i dit venv.
 
 ## Fase 2 - CLI med argparse (lektion 2)
 **Maal:** Programmet tager imod input korrekt.
 
-- [ ] Tilfoej argumentet `--key` (valgfri).
-- [ ] Tilfoej argumentet `--from` (fra-valuta).
-- [ ] Tilfoej argumentet `--to` (til-valuta).
-- [ ] Tilfoej argumentet `--amount` (beloeb).
-- [ ] Brug `--key`, hvis den er angivet.
-- [ ] Laes API-noegle fra `.env`, hvis `--key` ikke er angivet.
-- [ ] Tilfoej basal validering (fx `amount > 0` og tom key).
-- [ ] Done-kriterie: Programmet kan koeres baade med og uden `--key`.
+- [x] Tilfoej argumentet `--key` (valgfri).
+- [x] Tilfoej argumentet `--from` (fra-valuta).
+- [x] Tilfoej argumentet `--to` (til-valuta).
+- [x] Tilfoej argumentet `--amount` (beloeb).
+- [x] Brug `--key`, hvis den er angivet.
+- [x] Laes API-noegle fra `.env`, hvis `--key` ikke er angivet.
+- [x] Tilfoej basal validering (fx `amount > 0` og tom key).
+- [x] Done-kriterie: Programmet kan koeres baade med og uden `--key`.
 
 ## Fase 3 - API og omregning (lektion 3)
 **Maal:** Valutaomregning virker via ExchangeRate API.
@@ -52,7 +52,7 @@
 - [ ] Done-kriterie: En anden kan foelge README og faa programmet til at virke.
 
 ## Prioritering hvis tiden er knap
-- [ ] CLI virker med `argparse`.
+- [x] CLI virker med `argparse`.
 - [ ] API-kald virker.
-- [ ] `--key`/`.env` fallback virker.
+- [x] `--key`/`.env` fallback virker.
 - [ ] README + push til GitHub.
